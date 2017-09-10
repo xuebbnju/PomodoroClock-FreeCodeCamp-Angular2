@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300);
+* {
+  margin: 0;
+  font-family: Open Sans, Arial;
+}
+
+html,body{
+	width:100%;
+	height:100%;
+background-color: #333333;
+
+color: #fff;
+}
+.clearfix::after{
+   display: block;
+   content: "";
+   clear: both;
+   height: 0;
+   line-height: 0;
+   visibility: hidden;
+}
+.clearfix{
+	zoom: 1;
+}

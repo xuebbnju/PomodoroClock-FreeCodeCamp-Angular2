@@ -1,0 +1,77 @@
+.wrapper{
+	width:40%;
+	margin:0 auto;
+	text-align:center;
+	header{
+		h1{
+          
+           font-family: 'Pacifico';
+           font-size: 5em;
+		}
+
+		.session{
+			div{
+				float:left;
+				
+				h4{
+					font-size: .8em;
+					text-transform:   uppercase;
+					
+					
+					margin-bottom:20px;
+				}
+				button{
+					background:none;
+					border:none;
+					color:white;
+					cursor: pointer;
+                    font-size: 2em;
+                    margin:0 20px;
+                    outline:none;
+				}
+				span{
+					 font-size: 1.8em;
+					 color:white;
+				}
+
+			}
+			
+			.breakCtrl{
+				margin-left:15%;
+				margin-right:5%;
+			}
+		}
+	}
+	main{
+		.timer{
+          width: 300px;
+		  height: 300px;
+		  margin:30px auto;
+		  font-size: 3.5em;
+		  border: 2px solid #99CC00;
+		  border-radius: 50%;
+		  cursor: pointer;
+		  position: relative;
+		  z-index: 1;
+		  overflow: hidden;
+
+		  .title{
+		  	 line-height: 180px;
+            
+		  }
+		  .time{
+            margin-bottom:20px;
+		  }
+		  .fill{
+
+		  	position:absolute;
+		  	bottom:0;
+		  	left:0;
+		  	right:0;
+		  	z-index:-1;
+
+
+		  }
+		}
+	}
+}
